@@ -1,0 +1,40 @@
+#path-finder,#clear,#build,#erase,#find{
+    position: fixed;
+    top: 2.5%;
+    left: 45%;
+    width: 10%;
+    height: 5%;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 15px;
+    visibility: hidden;
+}
+
+#build{
+    left: 10%;
+    color:red;
+}
+
+#erase{
+    left: 25%;
+}
+
+#find{
+    left: 62%;
+}
+
+#clear{
+    left: 77%;
+}
+
+#display-distance,#display-message{
+    position: fixed;
+    top: 2.4%;
+    left: 40%;
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+}
